@@ -1,0 +1,121 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    padding: 20px;
+    text-align: center;
+    background: rgb(166,129,242);
+    background: linear-gradient(90deg, rgba(166,129,242,1) 4%, rgba(83,193,215,1) 100%);
+    color: #46364d;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini {
+    width: 1250px;
+}
+
+.mini:hover {
+    background: rgb(86,138,235);
+    background: linear-gradient(90deg, rgba(86,138,235,1) 0%, rgba(122,231,163,1) 88%);
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+p {
+    padding: 20px;
+    font-size: 25px;
+    line-height: 35px;
+    color: #166dee;
+}
+
+.text p , .box2 p, .box p, .box3 p{
+    width: 600px;
+    color: #c50c3d;
+}
+
+p:first-letter {
+    color: black;
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #621b1b;
+}
+
+a:active {
+    background-color: aquamarine;
+    font-style: italic;
+    font-size: 30px;
+}
+
+a:hover {
+    color: blue;
+    font-size: 40px;
+    font-family: "Al Bayan";
+}
+
+
+input {
+    margin: 40px;
+    padding: 20px;
+    width: 300px;
+}
+
+input:focus {
+    background-color: aqua;
+}
+
+li {
+    font-size: 30px;
+}
+
+li:first-child {
+    background-color: greenyellow;
+}
+
+li:last-child {
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
